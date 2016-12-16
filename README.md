@@ -1,4 +1,4 @@
-# Tmux Colors Base16
+# Base16 for Tmux
 
 _A Tmux theme using Chris Kempson's [Base16](https://github.com/chriskempson/base16) Styling Guidelines_
 
@@ -23,11 +23,11 @@ This color scheme is tested with tmux >= 1.5. tmux 1.1 is reported as not workin
 ### Installation with [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @plugin 'mshkrebtan/tmux-colors-base16'
+    set -g @plugin 'mshkrebtan/base16-tmux'
 
 Hit `prefix + I` to fetch the plugin and source it. The plugin should now be working.
 
 ## Modification
-If you want, you may create your own modification of the theme, put it in `~/.tmux/plugins/tmux-colors-base16/` and choose it via `.tmux.conf` option:
+If you want, you may create your own modification of the theme, put it in `~/.tmux/plugins/base16-tmux/` and choose it via `.tmux.conf` option:
 
     set -g @tmuxcolors 'my-base16'
