@@ -2,8 +2,8 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-theme_option="@colors-solarized"
-default_theme="256"
+theme_option="@tmuxcolors"
+default_theme="base16"
 
 get_tmux_option() {
 	local option="$1"
